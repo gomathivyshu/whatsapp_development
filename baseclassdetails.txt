@@ -84,7 +84,6 @@ public class FuntionalLibrary {
 			boolean enabled = element.isEnabled();
 			return enabled;
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			throw new Exception();
 		}
